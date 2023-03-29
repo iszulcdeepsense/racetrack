@@ -1,0 +1,12 @@
+name: quake3
+owner_email: sample@example.com
+lang: python3:latest
+
+git:
+  remote: https://github.com/TheRacetrack/racetrack
+  directory: sample/quake3
+
+python:
+  requirements_path: 'requirements.txt'
+  entrypoint_path: 'entrypoint.py'
+  entrypoint_class: 'JobEntrypoint'
