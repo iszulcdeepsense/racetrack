@@ -4,6 +4,7 @@ lang: python3:latest
 
 git:
   remote: https://github.com/TheRacetrack/racetrack
+  branch: april-quake3
   directory: sample/quake3
 
 python:
